@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  display: grid;
+  place-items: center;
+  min-height: 10vh;
+  background-color: black;
+  padding: 12px;
+}
+#header h2 {
+  color: white;
+  justify-self: start;
+}
+
+#main {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+#main #search_card {
+  align-self: start;
+  justify-self: start;
+  padding: 30px;
+}
+#main #search_card input {
+  text-align: Start;
+  padding: 10px;
+}
+#main #search_card .search_btn {
+  background-color: lightblue;
+  width: 100px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+}
+#main .search_result_card {
+  align-self: start;
+  justify-self: start;
+  background-color: rgb(246, 245, 244);
+  display: grid;
+  min-height: 95vh;
+  width: 100%;
+}
+#main .search_result_card h2 {
+  align-self: start;
+  padding-left: 33px;
+}
+#main .search_result_card .search_result {
+  align-self: start;
+  justify-self: start;
+  background-color: rgb(230, 228, 228);
+  display: grid;
+  min-height: 95vh;
+  width: 100%;
+}
+#main .search_result_card .search_result .display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*# sourceMappingURL=style.css.map */

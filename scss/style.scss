@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#header {
+    display: grid;
+    place-items: center;
+    min-height: 10vh;
+    background-color: black;
+    padding: 12px;
+    h2 {
+        color: white;
+        justify-self: start;
+    }
+}
+
+#main {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    #search_card {
+        align-self: start;
+        justify-self: start;
+        padding: 30px;
+        input {
+            text-align: Start;
+            padding: 10px;
+        }
+        .search_btn {
+            background-color: lightblue;
+            width: 100px;
+            border: none;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+    }
+    .search_result_card {
+        align-self: start;
+        justify-self: start;
+        background-color: rgb(246, 245, 244);
+        display: grid;
+        min-height: 95vh;
+        width: 100%;
+        h2 {
+            align-self: start;
+            padding-left: 33px;
+        }
+        .search_result {
+            align-self: start;
+            justify-self: start;
+            background-color: rgb(230, 228, 228);
+            display: grid;
+            min-height: 95vh;
+            width: 100%;
+
+            .display {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}
